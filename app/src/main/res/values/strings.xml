@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Web Search</string>
+    <string name="startingInformation">Please wait while the application loads...</string>
+    <string name="gameRules">Press the title of the game that corresponds with the photo.\nTry to guess ten in the shortest time possible!</string>
+    <string name="preStartInfo">Button will appear once application has fully loaded.</string>
+    <string name="startButton">Start</string>
+    <string name="timer">00:00</string>
+    <string name="beginLoad">Please press the button below to begin loading assets for the game.</string>
+    <string name="loadButton">Load Assets</string>
+    <string name="gameOver">Congratulations! Game over.</string>
+    <string name="playAgainButton">Play Again</string>
+    <string name="roundCount">Rounds Played: 0</string>
 </resources>

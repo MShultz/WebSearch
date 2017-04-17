@@ -27,7 +27,6 @@ public class DownloadMaterial extends AsyncTask<String, Void, String> {
             urlConnection = (HttpURLConnection) url.openConnection();
             InputStream inputStream = urlConnection.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-
             String s;
             while ((s = reader.readLine()) != null) {
                 result += s;
