@@ -187,6 +187,7 @@ public class MainActivity extends AppCompatActivity {
     public void playAgain(View view){
         gameOverScreen.setVisibility(View.INVISIBLE);
         numRounds = 0;
+        roundCount.setText(ROUND_PROMPT + Integer.toString(numRounds));
         setGame();
         gameScreen.setVisibility(View.VISIBLE);
         startTimer();

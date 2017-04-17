@@ -333,8 +333,8 @@
 
     <LinearLayout
         android:id="@+id/endGameScreen"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="?attr/colorPrimary"
         android:orientation="vertical"
         android:visibility="invisible"
@@ -374,8 +374,8 @@
             android:background="?attr/colorAccent"
             android:fontFamily="casual"
             android:onClick="playAgain"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="@string/playAgainButton"
             android:textColor="?attr/colorPrimaryDark"
             android:textSize="24sp" />
